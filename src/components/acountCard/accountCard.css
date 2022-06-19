@@ -1,0 +1,42 @@
+
+
+section .card {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(7.81rem, 1fr));
+background-color: #FFFFFF !important;
+width: 195px;
+height: 152px;
+}
+
+.card .iconn {
+display: flex;
+justify-content: space-around;
+align-items: center;
+color: #8A8A8A;
+
+}
+
+.iconn span:first-child {
+    color: #6C2261;
+    background-color: rgba(101, 117, 172, 0.08);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 40.53px;
+    height: 40.53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+section .send-money-card {
+    width: 29rem;
+    height: 152px;
+    background-color: #FFFFFF !important;
+}
+
+.add-moneyIcon {
+    float: right;
+}

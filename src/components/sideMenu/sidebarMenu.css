@@ -1,0 +1,36 @@
+.side-menu {
+    background-color: #FFFFFF;
+    width: 7.81rem;
+    height: 100%;
+    position: fixed;
+}
+
+.side-menu .logo {
+    margin-top: 1.31rem;
+    text-align: center;
+    width: 100%;
+}
+
+.side-menu .menu-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7.4rem;
+}
+
+.side-menu .menu-items span {
+    margin-top: 1.62rem;
+}
+
+.side-menu .bottomMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7.4rem;
+}
+
+.side-menu .bottomMenu span {
+    margin-top: 1.62rem;
+}

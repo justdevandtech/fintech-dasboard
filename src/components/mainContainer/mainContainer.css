@@ -1,0 +1,29 @@
+.interface {
+  width: calc(100% - 7.81rem);
+  margin-left: 7.81rem;
+}
+
+.interface .header{
+    margin-top: 1.31rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.interface .header h3 {
+    font-size: 1.62rem;
+    font-weight: bold;
+    color: #202536;
+}
+
+.interface .header .nav-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.interface .header .nav-icons span{
+    align-items: center;
+    margin-right: 1.31rem;
+}
